@@ -1,0 +1,133 @@
+#hauptseite {
+    float: right;
+    background-color: #eae314;
+    color: #e908e2;
+  }
+  
+  #kontaktseite {
+    float: right;
+    background-color: #eae314;
+    color: #e908e2;
+  }
+  
+  #header-image,
+  #contact-header-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  h1 {
+    background: #fcb7f5;
+    color: #ea14d5;
+  }
+  
+  h2 {
+    background: #d2f2a5;
+    color: #91ee2d;
+  }
+  
+  #main-topic {
+    background: #69ff6e;
+    color: rgb(161, 10, 10);
+  }
+  
+  h3 {
+    background: #ebf64d;
+  }
+  
+  #contact {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    color: rgb(140, 247, 17);
+  }
+  
+  .subtopic:hover {
+    color: #f26dc8;
+  }
+  
+  #treats-text2 {
+    text-align: justify;
+  }
+  
+  a img {
+    width: 130px;
+    height: 100px;
+    object-fit: fill;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  #lollipop {
+    border: 5px solid red;
+    float: left;
+    margin-right: 1em;
+  }
+  
+  #zuckerwatte {
+    border: 5px solid #f075f4;
+    float: right;
+    margin-left: 1em;
+  }
+  
+  #gummibärchen {
+    border: 5px solid lime;
+    float: left;
+    margin-right: 1em;
+  }
+  
+  #web-links {
+      list-style: none;
+  }
+  
+  #web-links li a:active {
+    background-color: #38e815;
+    color: #f111f4;
+  }
+  
+  #contact-list {
+    list-style-type: circle;
+  }
+  
+  #kontaktlink:visited {
+    color: #92f224;
+  }
+  
+  .kontakt-style {
+  
+     display: flex;
+     flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .kraka {
+      height: 15vh;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .kraka ul {
+      display: flex;
+      list-style: none;
+    }
+    
+    .kraka li a {
+      margin: 30px;
+      font-size: 30px;
+    }
+    
+    .kraka a {
+      color: rgb(113, 234, 7);
+    }
+    
+    .kraka ul li a:hover {
+      color: rgb(244, 14, 225);
+    }
+  
+  #zurueck:visited {
+    color: #ee2dee;
+  }
